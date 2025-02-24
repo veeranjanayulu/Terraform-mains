@@ -50,6 +50,7 @@ sudo rpm -ivh https://github.com/aquasecurity/trivy/releases/download/v0.48.3/tr
 
 #----------------------sonarQube install-----------------------------------
 sudo yum -y install wget nfs-utils
+sudo dnf install java-11-amazon-corretto
 sudo wget -O /etc/yum.repos.d/sonar.repo http://downloads.sourceforge.net/project/sonar-pkg/rpm/sonar.repo
 sudo yum -y install sonar
 #-----------------------JFROg-----------------------------
